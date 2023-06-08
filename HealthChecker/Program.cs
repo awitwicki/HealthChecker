@@ -60,7 +60,7 @@ var logAction = new Action(async () =>
 
 var daemon = new CronDaemon();
 
-daemon.AddJob("* * * * *", logAction);
+daemon.AddJob(cronSchedule, logAction);
 
 daemon.Start();
 
