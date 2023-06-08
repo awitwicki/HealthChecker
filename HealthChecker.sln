@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecker", "HealthChecker\HealthChecker.csproj", "{D2E068FB-B8D6-412D-BE59-156425CFA085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker-compose", "docker-compose.dcproj", "{5CAB60AC-DEEA-4BDA-9452-59830E9262CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2E068FB-B8D6-412D-BE59-156425CFA085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E068FB-B8D6-412D-BE59-156425CFA085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E068FB-B8D6-412D-BE59-156425CFA085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E068FB-B8D6-412D-BE59-156425CFA085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAB60AC-DEEA-4BDA-9452-59830E9262CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAB60AC-DEEA-4BDA-9452-59830E9262CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAB60AC-DEEA-4BDA-9452-59830E9262CC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAB60AC-DEEA-4BDA-9452-59830E9262CC}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
