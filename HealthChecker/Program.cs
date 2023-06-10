@@ -19,10 +19,18 @@ Console.WriteLine("Starting HealthChecker");
 
 async Task<bool> CheckUrl(string url)
 {
-    var client = new HttpClient();
-    var response = await client.GetAsync(url);
+    try
+    {
+        var client = new HttpClient();
+        var response = await client.GetAsync(url);
 
-    return response.IsSuccessStatusCode;
+        return response.IsSuccessStatusCode;
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e);
+        return false;
+    }
 }
 
 async Task SendLog(string message)
